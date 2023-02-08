@@ -13,3 +13,14 @@
 # 4
 # 1 2 3 4
 # 9
+
+
+list_1 = []
+for i in range(int(input('введите количество элементов массива N = : '))):
+    list_1.append(int(input('введите элемент массива = : ')))
+print(list_1)
+x = 0
+for i in range(len(list_1) - 1):                    
+    if (list_1[i]+list_1[i+1]+list_1[i-1] > x):
+        x = list_1[i]+list_1[i+1]+list_1[i-1]
+print(x)
