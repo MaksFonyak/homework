@@ -37,3 +37,6 @@ for item in text:
         if item in v:
             summ = summ + k
 print(summ)
+
+
+# не хватает знаний чтобы сделать для 2 языков

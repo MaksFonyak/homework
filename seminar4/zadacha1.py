@@ -19,13 +19,14 @@ for i in range(int(input('введите количество элементов
     list_2.append(int(input('введите элемент массива = : ')))
 print(list_2)
 
-print(sorted(list_1))
-print(sorted(list_2))
-print((set(list_1)), (set(list_2)))
+# print(sorted(list_1))
+# print(sorted(list_2))
+# print((set(list_1)), (set(list_2)))
 
-print(max(list_1))
-print(min(list_1))
+# print(max(list_1))
+# print(min(list_1))
 
+# не хватает знаний чтобы сделать это задание
 
 
 
