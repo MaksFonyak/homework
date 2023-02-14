@@ -14,7 +14,7 @@ def expon_num(A,B):
 
 A = int(input('введите число A = : '))
 B = int(input('введите число B = : '))
-# print(expon_num(A, B))
+
 print(f'{A} в степени {B} равно {expon_num(A, B)} ')
 
 
